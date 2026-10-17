@@ -5,7 +5,7 @@
 # paths. Those only worked on the specific Replit runner that produced
 # them and would silently break on a brand-new project with a different
 # path. Everything below resolves relative to this script's own location
-# and relies on `python3`/`gunicorn` being on PATH once dependencies are
+# and relies on `python3`/`gunicorn` being on PATH once dependencies are   
 # installed — the standard, portable way to do this.
 set -euo pipefail
 
