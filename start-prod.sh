@@ -8,7 +8,7 @@
 # and relies on `python3`/`gunicorn` being on PATH once dependencies are
 # installed — the standard, portable way to do this.
 set -euo pipefail
-
+   
 # 1. Resolve this script's own location safely (works no matter where the
 #    project root actually is on this particular Replit instance).
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
